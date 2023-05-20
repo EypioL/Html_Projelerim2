@@ -1,0 +1,599 @@
+/* sayfa isminde css oluşturdum yükseklik genişlik arkaplan rengini değiştirdim ve konumunu ayarladım*/
+#sayfa{
+    position: relative;
+    width: 2782px;
+    height: 3331px;
+    background-color: #ffffff;
+    margin: auto;
+}
+/* header isminde css oluşturdum yükseklik genişlik arkaplan rengini değiştirdim ve konumunu ayarladım*/
+#header{
+    position: absolute;
+    width: 2753px;
+    height: 333px;
+    left: 8px;
+    top: 7px;
+    background: #000000;
+}
+/* ilkcizgi isminde css oluşturdum yükseklik genişlik arkaplan rengini değiştirdim ve konumunu ayarladım*/
+#ilkcizgi{
+    position: absolute;
+    width: 5px;
+    height: 354px;
+    left: 709px;
+    bottom: 40px;
+    background: #FFFFFF;
+    transform: matrix(0, 1, 1, 0, 0, 0);
+}
+/* ikincicizgi isminde css oluşturdum yükseklik genişlik arkaplan rengini değiştirdim ve konumunu ayarladım*/
+#ikincicizgi{
+    position: absolute;
+    width: 5px;
+    height: 354px;
+    left: 1132px;
+    bottom: 40px;
+    background: #FFFFFF;
+    transform: matrix(0, 1, 1, 0, 0, 0);
+}
+/* ucuncucizgi isminde css oluşturdum yükseklik genişlik arkaplan rengini değiştirdim ve konumunu ayarladım*/
+#ucuncucizgi{
+    position: absolute;
+    width: 5px;
+    height: 354px;
+    left: 1550px;
+    bottom: 40px;
+    background: #FFFFFF;
+    transform: matrix(0, 1, 1, 0, 0, 0);
+}
+/* girisyap isminde css oluşturdum yükseklik genişlik arkaplan rengini değiştirdim border radius ile kenarlarını biraz daha yuvarlattım ve konumunu ayarladım*/
+#girisyap{
+    position: absolute;
+    width: 299px;
+    height: 67px;
+    left: 2319px;
+    top: 50px;
+    background: #FFFFFF;
+    border-radius: 100px;
+}
+/* personel isminde css oluşturdum konumunu ayarladım*/
+#personel{
+    margin-top: 5px;
+    margin-left: 30px;
+}
+/* arama isminde css oluşturdum yükseklik genişlik arkaplan rengini değiştirdim border radius ile kenarlarını biraz daha yuvarlattım ve konumunu ayarladım*/
+#arama{
+    position: absolute;
+    width: 1379px;
+    height: 59px;
+    left: 500px;
+    top: 226px;
+    background: rgba(255, 255, 255, 0.95);
+    border-radius: 20px;
+}
+/* cizgi isminde css oluşturdum yükseklik  border radius ile kenarlarını biraz daha yuvarlattım ve konumunu ayarladım*/
+#cizgi{
+    position: absolute;
+    width: 70px;
+    height: 0px;
+    left: 38px;
+    top: 380px;
+    border: 2px solid #000000;
+    transform: rotate(90deg);
+}
+/* cizgi2 isminde css oluşturdum yükseklik border radius ile kenarlarını biraz daha yuvarlattım ve konumunu ayarladım*/
+#cizgi2{
+    position: absolute;
+    width: 70px;
+    height: 0px;
+    left: 184px;
+    top: 380px;
+    border: 2px solid #000000;
+    transform: rotate(90deg);
+}
+/* cizgi3 isminde css oluşturdum yükseklik border radius ile kenarlarını biraz daha yuvarlattım ve konumunu ayarladım*/
+#cizgi3{
+    position: absolute;
+    width: 70px;
+    height: 0px;
+    left: 300px;
+    top: 380px;
+    border: 2px solid #000000;
+    transform: rotate(90deg);
+}
+/* cizgi4 isminde css oluşturdum yükseklik  border radius ile kenarlarını biraz daha yuvarlattım ve konumunu ayarladım*/
+#cizgi4{
+    position: absolute;
+    width: 70px;
+    height: 0px;
+    left: 700px;
+    top: 380px;
+    border: 2px solid #000000;
+    transform: rotate(90deg);
+}
+/* cizgi5 isminde css oluşturdum yükseklik genişlik  border radius ile kenarlarını biraz daha yuvarlattım ve konumunu ayarladım*/
+#cizgi5{
+    position: absolute;
+    width: 70px;
+    height: 0px;
+    left: 809px;
+    top: 380px;
+    border: 2px solid #000000;
+    transform: rotate(90deg);
+}
+/* cizgi6 isminde css oluşturdum yükseklik genişlik  border radius ile kenarlarını biraz daha yuvarlattım ve konumunu ayarladım*/
+#cizgi6{
+    position: absolute;
+    width: 70px;
+    height: 0px;
+    left: 1020px;
+    top: 380px;
+    border: 2px solid #000000;
+    transform: rotate(90deg);
+}
+/* cizgi7 isminde css oluşturdum yükseklik genişlik  border radius ile kenarlarını biraz daha yuvarlattım ve konumunu ayarladım*/
+#cizgi7{
+    position: absolute;
+    width: 209px;
+    height: 0px;
+    left: 1319px;
+    top: 1299px;
+    border: 4px solid #000000;
+}
+/* anasayfafoto isminde css oluşturdum yükseklik genişlik ve konumunu ayarladım*/
+#anasayfafoto{
+        position: absolute;
+        width: 2753px;
+        height: 738px;
+        left: 8px;
+        top: 436px;
+        }
+/* resim1 isminde css oluşturdum yükseklik genişlik  ve konumunu ayarladım fotoğrafımı çektim*/
+#resim1{
+    box-sizing: border-box;
+    position: absolute;
+    width: 760px;
+    height: 444px;
+    left: 1339px;
+    top: 1350px;
+    background: url(otelodası222.PNG);
+}
+/* resim2 isminde css oluşturdum yükseklik genişlik  ve konumunu ayarladım fotoğrafımı çektim*/
+#resim2{
+    box-sizing: border-box;
+    position: absolute;
+    width: 760px;
+    height: 444px;
+    left: 579px;
+    top: 1800px;
+    background: url(otelodası1.jpeg);
+}
+/* resim3 isminde css oluşturdum yükseklik genişlik  ve konumunu ayarladım fotoğrafımı çektim*/
+#resim3{
+    box-sizing: border-box;
+    position: absolute;
+    width: 760px;
+    height: 444px;
+    left: 1345px;
+    top: 2240px;
+    background: url(otelodası33.PNG);
+}
+/* resimsol isminde css oluşturdum yükseklik genişlik ve konumunu ayarladım fotoğrafımı çektim*/
+#resimsol{
+    position: absolute;
+    width: 621px;
+    height: 541px;
+    left: -100px;
+    top: 1371px;   
+}
+/* kutubeyaz isminde css oluşturdum yükseklik genişlik arkaplan rengini değiştirdim ve konumunu ayarladım */
+#kutubeyaz{
+    position: absolute;
+    width: 300px;
+    height: 100px;
+    left: 100px;
+    top: 1860px;
+    background-color: rgb(255, 255, 255);
+}
+/* anasayfayazi isminde css oluşturdum yükseklik genişlik rengimi değiştirdim ve konumunu ayarladım  yazı boyutunu yazı fontunu ayarladım*/
+#anasayfayazi{
+    position: absolute;
+    width: 363px;
+    height: 101px;
+    left: 620px;
+    top: 47px;
+    font-family: 'Averia Serif Libre';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 48px;
+    color: #FFFFFF;
+}
+/* hakkimda isminde css oluşturdum yükseklik genişlik yazımı rengimi değiştirdim ve konumunu ayarladım yazı boyutunu yazı fontunu ayarladım*/
+#hakkimda{
+    position: absolute;
+    width: 364px;
+    height: 101px;
+    left: 1030px;
+    top: 51px;
+    font-family: 'Averia Serif Libre';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 48px;
+    color: #FFFFFF;
+}
+/* odalarimiz isminde css oluşturdum yükseklik genişlik yazımı rengimi değiştirdim ve konumunu ayarladım yazı boyutunu yazı fontunu ayarladım*/
+#odalarimiz{
+    position: absolute;
+    width: 365px;
+    height: 101px;
+    left: 1450px;
+    top: 51px;
+    font-family: 'Averia Serif Libre';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 48px;
+    color: #FFFFFF;
+}
+/* otel isminde css oluşturdum yükseklik genişlik rengimi yazı değiştirdim ve konumunu ayarladım yazı boyutunu yazı fontunu ayarladım*/
+#otel{
+    position: absolute;
+    width: 305px;
+    height: 88px;
+    left: 95px;
+    top: 360px;
+    font-family: 'Averia Serif Libre';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 48px;
+    color: #000000;
+}
+/* Rezervasyon isminde css oluşturdum yükseklik genişlik yazı rengimi değiştirdim ve konumunu ayarladım yazı boyutunu yazı fontunu ayarladım*/
+#Rezervasyon{
+    position: absolute;
+    width: 408px;
+    height: 88px;
+    left: 390px;
+    top: 360px;
+    font-family: 'Averia Serif Libre';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 48px;
+    color: #000000;
+}
+/* kampanyalar isminde css oluşturdum yükseklik genişlik yazı rengimi değiştirdim ve konumunu ayarladım  yazı boyutunu yazı fontunu ayarladım*/
+#kampanyalar{
+    position: absolute;
+    width: 408px;
+    height: 88px;
+    left: 880px;
+    top: 360px;
+    font-family: 'Averia Serif Libre';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 48px;
+    color: #000000;
+}
+/* footer isminde css oluşturdum yükseklik genişlik arkadaki rengimi değiştirdim ve konumunu ayarladım*/
+#footer{
+    position: absolute;
+    width: 2789px;
+    height: 670px;
+    left: -28px;
+    top: 2700px;
+    background: #000000;
+}
+/* girsyapyazi isminde css oluşturdum yükseklik genişlik yazı rengimi değiştirdim ve konumunu ayarladım yazı boyutunu yazı fontunu ayarladım*/
+#girisyapyazi{
+    position: absolute;
+    width: 363px;
+    height: 101px;
+    left: 115px;
+    top: 10px;
+    font-family: 'Averia Serif Libre';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 44px;
+    color: #000000;
+}
+/* kayitol isminde css oluşturdum yükseklik genişlik yazı rengimi değiştirdim ve konumunu ayarladım yazı boyutunu yazı fontunu ayarladım*/
+#kayitol{
+    position: absolute;
+    width: 364px;
+    height: 101px;
+    right: 100px;
+    top: 20px;
+    font-family: 'Averia Serif Libre';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 44px;
+    color: #ffffff;
+}
+/* satürnotel isminde css oluşturdum yükseklik genişlik yazı rengimi değiştirdim ve konumunu ayarladım yazı boyutunu yazı fontunu ayarladım*/
+#satürnotel{
+    width: 712px;
+    height: 39px;
+    left: 411px;
+    top: 2970px;
+    margin-top: 330px;
+    margin-left: 329px;
+    right: 280px;
+    font-family: 'Averia Serif Libre';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 48px;
+    color: #ffffff;
+}
+/* satürnyazı isminde css oluşturdum yükseklik genişlik yazı rengimi değiştirdim ve konumunu ayarladım yazı boyutunu yazı fontunu ayarladım*/
+#satürnyazı{
+    width: 779px;
+    height: 293px;
+    left: 123px;
+    margin-left: 100px;
+    top: 3030px;
+    font-family: 'Averia Serif Libre';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 44px;
+    color: #FFFFFF;
+}
+/* ilet isminde css oluşturdum yükseklik genişlik yazı rengimi değiştirdim ve konumunu ayarladım yazı boyutunu yazı fontunu ayarladım*/
+#ilet{
+    position: absolute;
+    width: 510px;
+    height: 34px;
+    left: 1080px;
+    top: 330px;
+    font-family: 'Averia Serif Libre';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 48px;
+    color: #ffffff;
+    }
+
+    /* ucak2 isminde css oluşturdum yükseklik genişlik yazı rengimi değiştirdim ve konumunu ayarladım yazı boyutunu yazı fontunu ayarladım*/
+#ucak2{
+    position: absolute;
+    width: 612px;
+    height: 523px;
+    left: 2063px;
+    top: 1730px;
+}
+/* özelfirsat isminde css oluşturdum yükseklik genişlik yazı rengimi değiştirdim ve konumunu ayarladım yazı boyutunu yazı fontunu ayarladım*/
+#özelfirsat{
+    position: absolute;
+    width: 1126px;
+    height: 108px;
+    left: 360px;
+    top: 85px;
+    font-family: 'Averia Serif Libre';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 44px;
+    color: #ffffff;
+}
+/* özelfirsatlarkutu isminde css oluşturdum yükseklik genişlik yazı rengimi değiştirdim ve konumunu ayarladım yazı boyutunu yazı fontunu ayarladım*/
+#özelfirsatlarkutu{
+    position: absolute;
+    width: 1177px;
+    height: 81px;
+    left: 1233px;
+    top: 70px;
+    background: #ffffff;
+    border-radius: 15px;
+}
+/* üyeolkutu isminde css oluşturdum yükseklik genişlik yazı rengimi değiştirdim ve konumunu ayarladım yazı boyutunu yazı fontunu ayarladım*/
+#üyeolkutu{
+    position: absolute;
+    width: 163px;
+    height: 113px;
+    left: 2476px;
+    top: 60px;
+    background: #FFFFFF;
+    border-radius: 30px;
+}
+/* büyükyazi isminde css oluşturdum yükseklik genişlik yazı rengimi değiştirdim ve konumunu ayarladım yazı boyutunu yazı fontunu ayarladım*/
+#büyükyazi{
+    position: absolute;
+    width: 935px;
+    height: 79px;
+    left: 1006px;
+    top: 1197px;
+    font-family: 'Averia Serif Libre';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 70px;
+    line-height: 85px;
+    color: #000000;
+}
+/* ilkfotoyazi isminde css oluşturdum yükseklik genişlik yazı rengimi değiştirdim ve konumunu ayarladım yazı boyutunu yazı fontunu ayarladım*/
+#ilkfotoyazi{
+    position: absolute;
+    width: 630px;
+    height: 363px;
+    right: 850px;
+    top: 30px;
+    font-family: 'Averia Serif Libre';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 48px;
+    color: #000000;
+}
+/* ikincifotoyazi isminde css oluşturdum yükseklik genişlik yazı rengimi değiştirdim ve konumunu ayarladım yazı boyutunu yazı fontunu ayarladım*/
+#ikincifotoyazi{
+    position: absolute;
+    width: 630px;
+    height: 363px;
+    left: 800px;
+    top: 0px;
+    font-family: 'Averia Serif Libre';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 48px;
+    color: #000000;
+}
+/* üçüncüfotoyazi isminde css oluşturdum yükseklik genişlik yazı rengimi değiştirdim ve konumunu ayarladım yazı boyutunu yazı fontunu ayarladım*/
+#üçüncüfotoyazi{
+    position: absolute;
+    width: 630px;
+    height: 299px;
+    right: 850px;
+    top: 50px;
+    font-family: 'Averia Serif Libre';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 48px;
+    color: #000000;
+}
+/* iletisimegecyazi isminde css oluşturdum yükseklik genişlik yazı rengimi değiştirdim ve konumunu ayarladım yazı boyutunu yazı fontunu ayarladım*/
+#iletisimegecyazi{
+    position: absolute;
+    width: 1088px;
+    height: 240px;
+    left: 1132px;
+    top: 100px;
+    font-family: 'Averia Serif Libre';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 44px;
+    color:#FFFFFF;
+}
+/* kupa isminde css oluşturdum yükseklik genişlik yazı rengimi değiştirdim ve konumunu ayarladım yazı boyutunu yazı fontunu ayarladım*/
+#kupa{
+    position: absolute;
+    width: 510px;
+    height: 34px;
+    left: 2000px;
+    top: 330px;
+    font-family: 'Averia Serif Libre';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 48px;
+    color: #FFFFFF;
+}
+
+#anasayfayazi:hover{
+    box-shadow: 0px -10px 3px rgb(255, 255, 255);
+            background-color: rgb(0, 0, 0);
+            height: 50px;
+            width: 180px;
+            
+}
+#hakkimda:hover{
+    box-shadow: 0px -10px 3px rgb(255, 255, 255);
+            background-color: rgb(0, 0, 0);
+            height: 50px;
+            width: 210px;
+}
+#odalarimiz:hover{
+    box-shadow: 0px -10px 3px rgb(255, 255, 255);
+            background-color: rgb(0, 0, 0);
+            height: 50px;
+            width: 200px;         
+}
+#kampanyalar:hover{
+    box-shadow: 0px 10px 3px rgb(0, 0, 0);
+                background-color: rgb(255, 255, 255);
+                height: 50px;
+                width: 160px;
+}
+#Rezervasyon:hover{
+    box-shadow: 0px 10px 3px rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+    height: 50px;
+    width: 270px;
+}
+#otel:hover{
+    box-shadow: 0px 10px 3px rgb(0, 0, 0);
+                background-color: rgb(255, 255, 255);
+                height: 50px;
+                width: 95px;
+}
+#üyeol{
+    position: absolute;
+width: 137px;
+height: 69px;
+top: 40px;
+left: 40px;
+
+font-family: 'Averia Serif Libre';
+font-style: normal;
+font-weight: 700;
+font-size: 32px;
+line-height: 39px;
+color: #000000;
+}
+
+#bo {
+    max-width: 1300px;
+    position: relative;
+    left: 33px;
+    top: 3px;
+    }
+    #box .fa-search {
+    position: absolute;
+    top: 14px;
+    left: 12px;
+    font-size: 20px;
+    color:rgb(255, 255, 255);
+    }
+    #search {
+    width: 100px;
+    box-sizing: border-box;
+    border: 2px solid rgb(255, 252, 252);
+    border-radius: 4px;
+    font-size:18px;
+    padding: 12px 20px 12px 40px;
+    -moz-transition: width 0.4s ease-in-out;
+    -o-transition: width 0.4s ease-in-out;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+    }
+    #search:focus {
+    width: 100%;
+    }
+    
+    #box {
+        max-width: 1100px;
+        position: relative;
+        left: 33px;
+        top: 15px;
+        }
+        #box .fa-search {
+        position: absolute;
+        top: 14px;
+        left: 12px;
+        font-size: 20px;
+        color:rgb(255, 255, 255);
+        }
+        #search {
+        width: 100px;
+        box-sizing: border-box;
+        border: 2px solid rgb(255, 252, 252);
+        border-radius: 4px;
+        font-size:18px;
+        padding: 12px 20px 12px 40px;
+        -moz-transition: width 0.4s ease-in-out;
+        -o-transition: width 0.4s ease-in-out;
+        -webkit-transition: width 0.4s ease-in-out;
+        transition: width 0.4s ease-in-out;
+        }
+        #search:focus {
+        width: 100%;
+        }
+    

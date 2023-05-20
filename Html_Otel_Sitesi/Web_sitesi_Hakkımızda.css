@@ -1,0 +1,589 @@
+/* sayfa idmin boyutunu ayarladım yerini ayarladım arkaplan rengini değiştirdim */
+#sayfa{
+    margin: auto;
+    position: relative;
+    width: 2753px;
+    height: 4189px;
+    background: #ffffff;
+}
+/* üyeol idmin boyutunu ayarladım yerini ayarladım arkaplan rengini değiştirdim yazı rengini boyutunu değiştirdim*/
+#üyeol{
+    position: absolute;
+width: 137px;
+height: 69px;
+top: 40px;
+left: 40px;
+
+font-family: 'Averia Serif Libre';
+font-style: normal;
+font-weight: 700;
+font-size: 32px;
+line-height: 39px;
+color: #000000;
+}
+/* header idmin boyutunu ayarladım yerini ayarladım arkaplan rengini değiştirdim rengini boyutunu değiştirdim*/
+#header{
+    position: absolute;
+    width: 2753px;
+    height: 333px;
+    left: 0px;
+    top: 0px;
+    background: #000000;
+}
+/* logo idmin boyutunu ayarladım yerini ayarladım boyutunu değiştirdim*/
+#logo{
+    position: absolute;
+    width: 280px;
+    height: 281px;
+    left: 70px;
+    top: 26px;
+    background: url(abdullahlogo.png);
+}
+/* anasayfayazi idmin boyutunu ayarladım yerini ayarladım arkaplan rengini değiştirdim yazı rengini boyutunu değiştirdim*/
+#anasayfayazi{
+    position: absolute;
+    width: 363px;
+    height: 101px;
+    left: 787px;
+    top: 55px;
+    font-family: 'Averia Serif Libre';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 48px;
+
+    color: #FFFFFF;
+
+}
+/* anasayfacizgi idmin boyutunu ayarladım yerini ayarladım arkaplan rengini değiştirdim */
+#anasayfacizgi{
+    position: absolute;
+    width: 5px;
+    height: 354px;
+    left: 888px;
+    bottom: 35px;
+    background: #FFFFFF;
+    transform: matrix(0, 1, 1, 0, 0, 0);
+}
+/* hakkimizdayaziheader idmin boyutunu ayarladım yerini ayarladım arkaplan rengini değiştirdim yazı rengini boyutunu değiştirdim */
+#hakkimizdayaziheader{
+    position: absolute;
+    width: 364px;
+    height: 101px;
+    left: 1191px;
+    top: 55px;
+    font-family: 'Averia Serif Libre';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 48px;
+    color: #FFFFFF;
+}
+/* hakkimizdacizgi idmin boyutunu ayarladım yerini ayarladım rengini değiştirdim */
+#hakkimizdacizgi{
+    position: absolute;
+    width: 5px;
+    height: 354px;
+    left: 1288px;
+    bottom: 35px;
+    background: #FFFFFF;
+    transform: matrix(0, 1, 1, 0, 0, 0);
+}
+/* odalarimizyazi idmin boyutunu ayarladım yerini ayarladım rengini değiştirdim yazı rengini boyutunu değiştirdim */
+#odalarimizyazi{
+    position: absolute;
+    width: 365px;
+    height: 101px;
+    left: 1634px;
+    top: 55px;
+    font-family: 'Averia Serif Libre';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 48px;
+    color: #FFFFFF;
+}
+/* odalarimizcizgi idmin boyutunu ayarladım yerini ayarladım rengini değiştirdim */
+#odalarimizcizgi{
+    position: absolute;
+    width: 5px;
+    height: 354px;
+    left: 1736px;
+    bottom: 35px;
+    background: #FFFFFF;
+    transform: matrix(0, 1, 1, 0, 0, 0);
+}
+/* arama idmin boyutunu ayarladım yerini ayarladım arkaplan rengini değiştirdim köşelerini yumuşattım */
+#arama{
+    position: absolute;
+    width: 1379px;
+    height: 56px;
+    left: 701px;
+    top: 219px;
+    background: rgba(255, 255, 255, 0.95);
+    border-radius: 20px;
+}
+/* kayitol idmin boyutunu ayarladım yerini ayarladım  yazı rengini boyutunu değiştirdim */
+#kayitol{
+    position: absolute;
+width: 364px;
+height: 101px;
+left: 2198px;
+top: 67px;
+
+font-family: 'Averia Serif Libre';
+font-style: normal;
+font-weight: 700;
+font-size: 36px;
+line-height: 44px;
+
+color: #FFFFFF;
+
+}
+/* girisyap idmin boyutunu ayarladım yerini ayarladım  yazı rengini boyutunu değiştirdim */
+#girisyap{
+    position: absolute;
+    width: 363px;
+    height: 101px;
+    left: 2530px;
+    top: 64px;
+
+    font-family: 'Averia Serif Libre';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 44px;
+
+    color: #000000;
+    }
+/* kutubeyaz idmin boyutunu ayarladım yerini ayarladım  background rengini boyutunu değiştirdim köşelerini yumuşattım */
+#kutubeyaz{
+        position: absolute;
+    width: 299px;
+    height: 67px;
+    left: 2409px;
+    top: 55px;
+
+    background: #FFFFFF;
+    border-radius: 100px;
+    }
+/* personel idmin boyutunu ayarladım yerini ayarladım */
+#personel{
+        position: absolute;
+    width: 63px;
+    height: 57px;
+    left: 2427px;
+    top: 60px;
+
+    background: url(image.png);
+    }
+/* cizgi1 idmin boyutunu ayarladım yerini ayarladım kenar rengini değiştirdim ve döndürdüm*/
+#Cizgi1{
+position: absolute;
+width: 70px;
+height: 0px;
+left: 70px;
+top: 368px;
+border: 2px solid #000000;
+transform: rotate(90deg);
+}
+/* otel idmin boyutunu ayarladım yerini ayarladım yazı rengini boyutunu ayarlardım */
+#otel{
+    position: absolute;
+width: 305px;
+height: 88px;
+left: 127px;
+top: 348px;
+
+font-family: 'Averia Serif Libre';
+font-style: normal;
+font-weight: 700;
+font-size: 40px;
+line-height: 48px;
+
+color: #000000;
+}
+/* cizgi2 idmin boyutunu ayarladım yerini ayarladım kenar rengini değiştirdim ve döndürdüm*/
+#Cizgi2{
+    position: absolute;
+width: 70px;
+height: 0px;
+left: 191px;
+top: 368px;
+
+border: 2px solid #000000;
+transform: rotate(90deg);
+}
+/* cizgi3 idmin boyutunu ayarladım yerini ayarladım kenar rengini değiştirdim ve döndürdüm*/
+#Cizgi3{
+    position: absolute;
+width: 70px;
+height: 0px;
+left: 322px;
+top: 368px;
+
+border: 2px solid #000000;
+transform: rotate(90deg);
+}
+/* rezervasyon idmin boyutunu ayarladım yerini ayarladım yazı rengini boyutunu ayarlardım */
+#rezervasyon{
+    position: absolute;
+width: 305px;
+height: 88px;
+left: 394px;
+top: 348px;
+
+font-family: 'Averia Serif Libre';
+font-style: normal;
+font-weight: 700;
+font-size: 40px;
+line-height: 48px;
+
+color: #000000;
+}
+/* cizgi4 idmin boyutunu ayarladım yerini ayarladım kenar rengini değiştirdim ve döndürdüm*/
+#Cizgi4{
+    position: absolute;
+width: 70px;
+height: 0px;
+left: 614px;
+top: 368px;
+
+border: 2px solid #000000;
+transform: rotate(90deg);
+}
+/* cizgi5 idmin boyutunu ayarladım yerini ayarladım kenar rengini değiştirdim ve döndürdüm*/
+#Cizgi5{
+    position: absolute;
+width: 70px;
+height: 0px;
+left: 704px;
+top: 368px;
+
+border: 2px solid #000000;
+transform: rotate(90deg);
+}
+/* iletisim idmin boyutunu ayarladım yerini ayarladım yazı rengini boyutunu ayarlardım */
+#iletisim{
+    position: absolute;
+width: 408px;
+height: 88px;
+left: 776px;
+top: 348px;
+
+font-family: 'Averia Serif Libre';
+font-style: normal;
+font-weight: 700;
+font-size: 40px;
+line-height: 48px;
+
+color: #000000;
+
+}
+/* cizgi6 idmin boyutunu ayarladım yerini ayarladım kenar rengini değiştirdim ve döndürdüm*/
+#Cizgi6{
+    position: absolute;
+width: 70px;
+height: 0px;
+left: 904px;
+top: 368px;
+
+border: 2px solid #000000;
+transform: rotate(90deg);
+}
+/* foto idmin boyutunu ayarladım yerini ayarladım */
+#foto{
+    position: absolute;
+width: 2753px;
+height: 913px;
+left: 0px;
+top: 409px;
+}
+/* hakkimizdayazi idmin boyutunu ayarladım yerini ayarladım yazı rengini boyutunu ayarlardım */
+#hakkimizdayazi{
+    position: absolute;
+width: 967px;
+height: 134px;
+left: 1094px;
+top: 359px;
+
+font-family: 'Averia Serif Libre';
+font-style: normal;
+font-weight: 700;
+font-size: 128px;
+line-height: 155px;
+
+color: #FFFFFF;
+}
+/* hakkimizdayazilari idmin boyutunu ayarladım yerini ayarladım yazı rengini boyutunu ayarlardım */
+#hakkimizdayazilari{
+    position: absolute;
+width: 1794px;
+height: 412px;
+left: 494px;
+top: 964px;
+
+font-family: 'Baloo Bhai 2';
+font-style: normal;
+font-weight: 400;
+font-size: 55px;
+line-height: 89px;
+
+color: #000000;
+}
+/* hakkimizdayazilari2 idmin boyutunu ayarladım yerini ayarladım yazı rengini boyutunu ayarlardım */
+#hakkimizdayazilari2{
+    position: absolute;
+width: 1133px;
+height: 1357px;
+left: 318px;
+top: 1821px;
+
+font-family: 'Baloo Bhai 2';
+font-style: normal;
+font-weight: 400;
+font-size: 55px;
+line-height: 89px;
+
+color: #000000;
+}
+/* foto idmin boyutunu ayarladım yerini ayarladım */
+#fotopc{
+    position: absolute;
+width: 1137px;
+height: 758px;
+left: 1567px;
+top: 1870px;
+
+background: url(pcoda.PNG);
+}
+/* footer idmin boyutunu ayarladım yerini ayarladım arkaplan rengini boyutunu ayarlardım */
+#footer{
+    position: absolute;
+    width: 2789px;
+    height: 670px;
+    left: -28px;
+    top: 3247px;
+    background: #000000;
+}
+/* özelfirsat idmin boyutunu ayarladım yerini ayarladım yazı rengini boyutunu ayarlardım */
+#özelfirsat{
+    position: absolute;
+    width: 1126px;
+    height: 108px;
+    left: 360px;
+    top: 135px;
+    font-family: 'Averia Serif Libre';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 44px;
+    color: #ffffff;
+}
+/* özelfirsatlarkutu idmin boyutunu ayarladım yerini ayarladım arkaplan rengini boyutunu ayarlardım köşe yumuşatma*/
+#özelfirsatlarkutu{
+    position: absolute;
+    width: 1177px;
+    height: 81px;
+    left: 1233px;
+    top: 120px;
+    background: #ffffff;
+    border-radius: 15px;
+}
+/* üyeolkutu idmin boyutunu ayarladım yerini ayarladım arkaplan rengini boyutunu ayarlardım köşe yumuşatma*/
+#üyeolkutu{
+    position: absolute;
+    width: 163px;
+    height: 113px;
+    left: 2506px;
+    top: 80px;
+    background: #FFFFFF;
+    border-radius: 30px;
+}
+/* kupa idmin boyutunu ayarladım yerini ayarladım yazı rengini boyutunu ayarlardım */
+#kupa{
+    position: absolute;
+    width: 510px;
+    height: 34px;
+    left: 2030px;
+    top: 350px;
+    font-family: 'Averia Serif Libre';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 48px;
+    color: #FFFFFF;
+}
+/* ilet idmin boyutunu ayarladım yerini ayarladım yazı rengini boyutunu ayarlardım */
+#ilet{
+    position: absolute;
+    width: 510px;
+    height: 34px;
+    left: 1100px;
+    top: 350px;
+    font-family: 'Averia Serif Libre';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 48px;
+    color: #FFFFFF;
+    }
+/* satürnotel isminde css oluşturdum yükseklik genişlik yazı rengimi değiştirdim ve konumunu ayarladım yazı boyutunu yazı fontunu ayarladım*/
+#satürnotel{
+        width: 712px;
+        height: 39px;
+        left: 411px;
+        top: 3020px;
+        margin-top: 330px;
+        margin-left: 329px;
+        right: 280px;
+        font-family: 'Averia Serif Libre';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 40px;
+        line-height: 48px;
+        color: #ffffff;
+    }
+/* satürnyazı isminde css oluşturdum yükseklik genişlik yazı rengimi değiştirdim ve konumunu ayarladım yazı boyutunu yazı fontunu ayarladım*/
+#satürnyazı{
+        width: 779px;
+        height: 293px;
+        left: 123px;
+        margin-left: 100px;
+        top: 3080px;
+        font-family: 'Averia Serif Libre';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 44px;
+        color: #FFFFFF;
+    }
+/* ortayazi isminde css oluşturdum yükseklik genişlik yazı rengimi değiştirdim ve konumunu ayarladım yazı boyutunu yazı fontunu ayarladım*/
+#ortayazi{
+    position: absolute;
+    width: 1389px;
+    height: 188px;
+    left: 900px;
+    top: 1526px;
+    
+    font-family: 'Averia Serif Libre';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 80px;
+    line-height: 97px;
+    
+    color: #000000;
+    }
+/* satürnyazı isminde yükseklik genişlik ve yerini değiştirdim arkaplan rengini değiştirdim*/
+#altcizgi{
+position: absolute;
+width: 5px;
+height: 374px;
+left: 1409px;
+top: 1521px;
+
+background: #000000;
+transform: matrix(0, 1, 1, 0, 0, 0);
+}
+/*kutu gölgesi verdim boyutunu ayarladım arkaplan rengini değiştirdim */
+#anasayfayazi:hover{
+        box-shadow: 0px -10px 3px rgb(255, 255, 255);
+                background-color: rgb(0, 0, 0);
+                height: 50px;
+                width: 180px;
+                
+    }
+    /*kutu gölgesi verdim boyutunu ayarladım arkaplan rengini değiştirdim */
+#hakkimizdayaziheader:hover{
+        box-shadow: 0px -10px 3px rgb(255, 255, 255);
+                background-color: rgb(0, 0, 0);
+                height: 50px;
+                width: 210px;
+    }
+    /*kutu gölgesi verdim boyutunu ayarladım arkaplan rengini değiştirdim */
+#odalarimizyazi:hover{
+        box-shadow: 0px -10px 3px rgb(255, 255, 255);
+                background-color: rgb(0, 0, 0);
+                height: 50px;
+                width: 200px;         
+    }
+    /*kutu gölgesi verdim boyutunu ayarladım arkaplan rengini değiştirdim */
+#iletisim:hover{
+        box-shadow: 0px 10px 3px rgb(0, 0, 0);
+                background-color: rgb(255, 255, 255);
+                height: 50px;
+                width: 130px;
+    }
+    /*kutu gölgesi verdim boyutunu ayarladım arkaplan rengini değiştirdim */
+#otel:hover{
+        box-shadow: 0px 10px 3px rgb(0, 0, 0);
+                background-color: rgb(255, 255, 255);
+                height: 50px;
+                width: 85px;
+    }
+    /*kutu gölgesi verdim boyutunu ayarladım arkaplan rengini değiştirdim */
+#rezervasyon:hover{
+        box-shadow: 0px 10px 3px rgb(0, 0, 0);
+                background-color: rgb(255, 255, 255);
+                height: 50px;
+                width: 225px;
+    }
+
+#bo {
+        max-width: 1300px;
+        position: relative;
+        left: 33px;
+        top: 3px;
+        }
+        #box .fa-search {
+        position: absolute;
+        top: 14px;
+        left: 12px;
+        font-size: 20px;
+        color:rgb(255, 255, 255);
+        }
+        #search {
+        width: 100px;
+        box-sizing: border-box;
+        border: 2px solid rgb(255, 252, 252);
+        border-radius: 4px;
+        font-size:18px;
+        padding: 12px 20px 12px 40px;
+        -moz-transition: width 0.4s ease-in-out;
+        -o-transition: width 0.4s ease-in-out;
+        -webkit-transition: width 0.4s ease-in-out;
+        transition: width 0.4s ease-in-out;
+        }
+        #search:focus {
+        width: 100%;
+        }
+        #box {
+            max-width: 1100px;
+            position: relative;
+            left: 33px;
+            top: 15px;
+            }
+            #box .fa-search {
+            position: absolute;
+            top: 14px;
+            left: 12px;
+            font-size: 20px;
+            color:rgb(255, 255, 255);
+            }
+            #search {
+            width: 100px;
+            box-sizing: border-box;
+            border: 2px solid rgb(255, 252, 252);
+            border-radius: 4px;
+            font-size:18px;
+            padding: 12px 20px 12px 40px;
+            -moz-transition: width 0.4s ease-in-out;
+            -o-transition: width 0.4s ease-in-out;
+            -webkit-transition: width 0.4s ease-in-out;
+            transition: width 0.4s ease-in-out;
+            }
+            #search:focus {
+            width: 100%;
+            }
+        
+    

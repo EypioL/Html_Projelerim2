@@ -1,0 +1,167 @@
+#arkaplan{
+    margin: auto;
+}
+#bg{
+    color: aliceblue;
+}
+#header{
+    box-sizing: border-box;
+
+position: absolute;
+width: 1251px;
+height: 242px;
+left: 73px;
+top: 72px;
+
+background: #FFFBFB;
+/*divde header olarak verdiğim id'de width:1251px height:242px verdim left:73px top:72px verdim*/
+}
+#anasayfa{
+    position: absolute;
+width: 907px;
+height: 328px;
+left: 400px;
+top: 106px;
+
+font-family: 'Averia Serif Libre';
+font-style: normal;
+font-weight: 700;
+font-size: 96px;
+line-height: 116px;
+
+color: #000000;
+
+}
+#numara{
+    position: absolute;
+    width: 241px;
+    height: 32px;
+    left: 950px;
+    top: 140px;
+    
+    font-family: 'Inika';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 26.3327px;
+    line-height: 32px;
+    color: #000000;
+    /*divde numara olarak verdiğim id'de width:241px height:32px verdim left:950px top:140px verdim fontumu Inika verdim font sizeı 26px font weight:400px verdim*/
+}
+
+#rezervasyon_text{
+    position: absolute;
+width: 219px;
+height: 44px;
+left: 536px;
+top: 90px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 36px;
+line-height: 44px;
+color: #000000;
+/*divde rezervasyon_text olarak verdiğim id'de width:219px height:44px verdim left:536px top:90px verdim fontumu Inter verdim font sizeı 36px font weight:400px verdim*/
+}
+#nav{
+    box-sizing: border-box;
+position: absolute;
+width: 1249px;
+height: 967px;
+left: 73px;
+top: 314px;
+background: #FFFDFD;
+ /*divde nav olarak verdiğim id'de width:1249px height:967px verdim left:73px top:314px verdim backgroundu beyaz yaptım*/
+}
+#card{
+    position: absolute;
+width: 1065px;
+height: 859px;
+left: 73px;
+top: 60px;
+background: #000000;
+border-radius: 10px;
+/*divde card olarak verdiğim id'de width:1065px height:859px verdim left:73px top:60px backgroundu mavi yaptım köşeleri 10px yuvarlaştırdım */
+}
+#giristarih{
+    position:absolute;
+    left:220px ;
+    top: 440px;
+    font-family: 'Averia Serif Libre';
+font-style: normal;
+font-weight: 700;
+font-size: 46px;
+line-height: 116px;
+color: #FFFBFB;
+    /*divde giristarih olarak verdiğim id'de  verdim left:220px top4:440px font size:36px yaptım*/
+}
+#cikistarihi{
+position:absolute;
+left: 220px;
+top: 600px;
+font-size: 46px;
+font-style: normal;
+font-weight: 700;
+font-size: 46px;
+line-height: 116px;
+color: #FFFBFB;
+ /*divde cıkıstarihi olarak verdiğim id'de  verdim left:220px top4:600px font size:36px yaptım*/
+}
+#mutfak{
+    position: absolute;
+    width: 700px;
+    height: 71px;
+    left: 260px;
+    top: 5px;
+    background: #FFFDFD;
+    /*divde mutfak olarak verdiğim id'de   width:700px  height:71px  left:260px top:5px backgroundu beyaz verdim*/
+}
+#mutfak2{
+    position: absolute;
+    width: 700px;
+    height: 71px;
+    left: 260px;
+    top: 5px;
+    
+    background: #FFFDFD;
+    /*divde mutfak olarak verdiğim id'de   width:700px  height:71px  left:260px top:5px backgroundu beyaz verdim*/
+}
+#odasayisi{
+    position:absolute;
+    left:220px ;
+    top: 750px;
+    font-size: 36px;
+    color: #FFFBFB;
+    /*divde odasayisi olarak verdiğim id'de  left:220px top:750px  font-size:36px backgroundu beyaz verdim*/
+
+}
+#tentacles{
+    position:absolute;
+    left:475px ;
+    top: 750px;
+    font-size: 36px;
+    /*divde tentacles olarak verdiğim id'de       left:475px top:750px font-size:36px*/
+}
+#tentacles1{
+    position:absolute;
+    left:475px ;
+    top: 900px;
+    font-size: 36px;
+     /*divde tentacles1 olarak verdiğim id'de      left:475px top:750px font-size:36px*/
+}
+#kisisayi{
+    position:absolute;
+    left:220px ;
+    top: 900px;
+    font-size: 36px;
+    color: #FFFBFB;
+     /*divde kisisayisi olarak verdiğim id'de      left:220px top:900px font-size:36px*/
+}
+#but1{
+    position:absolute;
+    left:475px ;
+    top: 1000px;
+    font-size: 36px;
+     /*divde but1 olarak verdiğim id'de  left:475px top:1000px font-size:36px*/
+}
+

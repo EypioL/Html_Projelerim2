@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="html_rezervasyon.css">
+    <!--link kullandım ve bu linkde css kodlarımı divlere bağlamayı sağladım-->
+</head>
+<body>
+  <script src="html_rezervasyon.js"></script>
+<!--scripte rezervasyonun javascriptini bağladım-->
+  <div id="arkaplan">
+   <div id="bg"></div>
+     <!--İlk önce bg açtım-->
+   <header id="header">
+    <a href="Html_Sinav.html"><div id="anasayfa">Ana Sayfa</div></a>
+     <!--divime numara adlı bir id verdim -->
+   </header>
+    <!--header bölümü açtım ve header adlı bir id verdim-->
+   <nav id="nav">
+    <div id="card"></div>
+       <!--divime card adlı bir id verdim -->
+   </nav>
+    <!--divime nav adlı bir id verdim ve  -->
+   <form>
+    <div id="giristarih">Giriş Tarihi
+         <!--divime giristarih adlı bir id verdim  -->
+        <input type="date" id="mutfak">
+         <!--input mutfak adlı bir id verdim ve  -->
+    </div>
+    <div id="cikistarihi">Çıkış Tarihi
+          <!--divime cıkıstarihi adlı bir id verdim  -->
+        <input type="date" id="mutfak2">
+           <!--inputuma mutfak2 adlı bir id verdim  -->
+    </div>
+    <div id="odasayisi"> Oda Sayısı</div>
+     <!--divime odasayisi adlı bir id verdim -->
+        <input type="number" id="tentacles"name="tentacles" min="1"max="5">
+         <!--inputuma tentacles adlı bir id verdim ve minimum=1 ve maximum=5 kaç oda isteyebiliğimizi ayarladım -->
+        <div id="kisisayi">Kişi Sayısı</div>
+            <!--divime kisisayi adlı bir id verdim -->
+        <input type="number" id="tentacles1"name="tentacles1"min="1"max="8">
+         <!--inputuma tentacles adlı bir id verdim ve minimum=1 ve maximum=5 kaç oda isteyebiliğimizi ayarladım -->
+        <button id="but1" onclick="uyari()">Kaydet</button>
+          <!--butonuma but1 adlı bir id verdim ve onclick vererek jsde uyarı vermesini sağladım-->       
+</form>
+</div>
+           <!--footera footer adlı bir id verdim -->
+</body>
+
+</html>
